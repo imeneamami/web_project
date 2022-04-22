@@ -17,7 +17,7 @@
             'description'=>$reclamation->getDesc_rec(),
         ]);
     } catch (PDOException $th) {
-         $th->getMessage();
+         $th->getMessage(); 
     }
 }
 
