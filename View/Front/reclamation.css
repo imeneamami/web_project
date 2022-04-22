@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding:0px;
+    background-color:   rgb(222, 174, 158);
+    position:absolute;
+    top: 0.5%;
+    left: 33%;
+    transform:translate (-0.5%,-33%);
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+     
+     
+ }
+ form{  
+     background-color: rgb(222, 174, 158);
+     padding: 200px;
+     border: radius 10px;
+
+ }
+ form.h1 {
+     top:80%;
+     left: 5%;
+     font: size 80%;; 
+ }
+
+ form.seperation {
+    width: 170%;
+    height:12px;
+    background-color:#873565;
+
+}
+ form.corps {
+     display: flex  ;
+     flex-wrap:wrap;
+     margin-bottom:60px;
+
+     
+ }
+ form .corps.groupe {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column ;
+
+ }
+ form.corps.gauche.groupe input 
+
+ {
+    position: relative;
+margin-top: 5px;
+padding:10px 5px 10px 30px;
+border:1px solid #c64949;
+outline: color #747cdf;
+border-radius: 5px;
+
+ }
+ form.corps.gauche.groupe >i{
+
+
+left:0px;
+top:0px;
+padding: 9px 8px;
+color:#747cdf;
+
+
+ }
+ form.corps.droite {
+    margin-left:80px;
+ }
+ form.corps.droite.groupe textarea{
+     margin-top: 5px;
+     padding:10px;
+     background-color: rgb(219, 150, 127);
+     border:2px solid #747cdf;
+     border-radius: 5px;
+     resize: none;
+     height: 70%;
+  
+ }
+  
+ form.pied-description button{
+     margin-top:10px;
+     background-color: #747cdf;
+     color:rgb(136, 103, 126);
+     font-size:15px;
+     border:none;
+     padding:10px 20px;
+     border-radius: 5px;
+     outline:none; 
+     cursor:pointer;
+
+
+
+  }
+  form.pied-description button:hover{
+    transform:scale(1.05);
+  }
+  form.brand.logo2.png {
+      top:10%;
+      left:0.2%;
+  }
